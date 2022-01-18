@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo minato grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="grid-header">
+            <div id="title">
+                <h1 class="text-red">Campo minato</h1>
+            </div>
+            <div id="square">
+                <span id="smile">&#128512;</span>
+            </div>
+            <div id="level">
+                <label for="level-select">
+                    <h2 class="text-red">Scegli il livello</h2>
+                </label>
+                <br>
+                <select name="level-select" id="level-select" class="f-size-4">
+                    <option value="first-level">Facile</option>
+                    <option value="second-level">Medio</option>
+                    <option value="third-level">Difficile</option>
+                </select>
+                <button id="button" class="f-size-4">Inizia</button>
+            </div>
+        </header>
+        <main id="grid-main">
+            <div id="grid"></div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
