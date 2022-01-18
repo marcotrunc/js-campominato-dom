@@ -109,3 +109,9 @@ button{
 .clicked{
     background-color: transparent;
 }
+.safe{
+    background-color: green;
+}
+.bomb{
+    background-color: red;
+}
